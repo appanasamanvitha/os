@@ -44,3 +44,20 @@ printf("p[%d]    %d    %d    %d   %d\n",i,bt[i],ct[i],tat[i],wt[i]);
 printf("\nAVERAGE TURN AROUND TIME IS %f\nAVERAGE WAITING TIME IS %f\n",avgtat,avgwt);
 return 0;
 }
+
+
+output:
+enter no of processes : 4
+enter burst times : 
+6
+8
+3
+4
+PID  BT   CT   TAT    WT
+p[0]   3   3   3   0
+p[1]   4   7   7   3
+p[2]   6   13   13   7
+p[3]   8   21   21   13
+
+AVERAGE TURN AROUND TIME IS 11.000000
+AVERAGE WAITING TIME IS 5.750000
